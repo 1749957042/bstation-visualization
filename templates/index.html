@@ -1,0 +1,42 @@
+<!DOCTYPE html5>
+<!-- 设置中文页面 -->
+<html lang="zh-cn">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>可视化</title>
+  <!-- 语音需要的js文件 -->
+  <link rel="stylesheet" href="../static/css/test.css">
+  <script src="../static/js/echarts.min.js"></script>
+  <!-- 词云图需要 -->
+  <script src="../static/js/echarts-wordcloud.min.js"></script>
+  <script src="../static/js/jquery.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>B站视频数据可视化</h1>
+  </header>
+
+  <div class="mainbox">
+    <script src="../static/js/get_data.js"></script>
+    <div class="left">
+      <div class="left1">
+        <h2 class="online">bilibli网站当前在线人数：<p></p></h2>
+      </div>
+      <div id="left2"></div>
+    </div>
+    <div id="cent"></div>
+    <div class="right">
+      <div id="r1"></div>
+      <div id="right2"></div>
+    </div>
+  </div>
+  <script src="../static/js/average.js"></script>
+  <script src="../static/js/max_min.js"></script>
+  <script src="../static/js/type_pie.js"></script>
+  <script src="../static/js/wordcloud.js"></script>
+</body>
+</html>

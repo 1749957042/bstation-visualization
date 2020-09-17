@@ -1,0 +1,74 @@
+* {
+    /* 网页布局格式化，清除边距 */
+    margin: 0px;
+    padding: 0px;
+    /* 将边框厚度和内边距放到盒子内部 */
+    box-sizing: border-box;
+}
+
+header {
+    /* 头部盒子 */
+    height: 83px;
+    background-color: skyblue;
+}
+header h1 {
+    /* 标题 */
+    text-align: center;
+    font-size: 50px;
+}
+/* 在线人数样式 */
+.left .left1 .online p {
+    text-align: right;
+    color: skyblue;
+    font-size: 30px;
+}
+/* 主体盒子 */
+.mainbox {
+    height: 90%;
+    width: 100%;
+    /* background-color: tomato; */
+}
+
+.mainbox .left {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+/* 词云图部分 */
+.mainbox #cent {
+    float: left;
+    width: 20%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+.mainbox .right {
+    float: right;
+    width: 30%;
+    height: 100%;
+}
+
+.left1 {
+    height: 15%;
+    width: 100%;
+    /* background-color: thistle; */
+}
+
+#left2 {
+    height: 85%;
+    width: 100%;
+    /* background-color: teal; */
+}
+
+#r1 {
+    height: 50%;
+    width: 100%;
+    /* background-color: blue; */
+}
+
+#right2 {
+    height: 50%;
+    width: 100%;
+    /* background-color: aquamarine; */
+}

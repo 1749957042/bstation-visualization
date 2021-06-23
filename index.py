@@ -116,4 +116,4 @@ def get_danmu():
     return json.dumps(total_danmu)  # 封装成json格式传给前端
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True, port=79, host="0.0.0.0", threaded=True)

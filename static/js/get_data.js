@@ -6,7 +6,7 @@ function get_online() {
             $(".online p").text(data)
         },
         error:function(xhr, type, errorThrown){
-            alert("发送ajax请求失败")
+
         }
     })
 }
